@@ -5,8 +5,10 @@ description: > # your text below (remove <br> elements if you don't need line br
   Results-driven Data Science professional with over a decade of experience in extracting actionable insights from data. Proven track record of leveraging data analytics to inform business decisions and drive growth. Passionate about data-driven decision making and staying at the forefront of data science trends. 
 
   <br><br>
-  <a href="https://www.linkedin.com/in/davor-kondic-54576886/">View my LinkedIn Profile</a> 
-  <a href="https://huggingface.co/dkondic">View my HuggingFace LLM demos.</a> 
+  <a href="https://www.linkedin.com/in/davor-kondic-54576886/">View my LinkedIn Profile</a>
+  <br>
+  <a href="https://huggingface.co/dkondic">View my HuggingFace LLM demos.</a>
+  <br>
   <a href="https://github.com/Dacho688">View my GitHub repos.</a>
 
 theme: jekyll-theme-minimal
