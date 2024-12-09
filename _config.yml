@@ -2,10 +2,13 @@ title: Davor Kondic # your name (or website title) here
 logo: "/images/linkedin.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br>
-  TABLE OF CONTENTS
-  Projects
+  <strong>PROJECTS</strong>
+  <br>
+  <b>This text is bold</b>
+  AI Agents
+  <br>
   <a href="https://dacho688.github.io/Data_Analyst">Data Analyst</a>
-  <br><br>
+  <br><be><br>
   <a href="https://www.linkedin.com/in/davor-kondic-54576886/">View my LinkedIn Profile</a>
   <br><br>
   <a href="https://huggingface.co/dkondic">View my HuggingFace Profile and Demos.</a>
