@@ -3,11 +3,11 @@ logo: "/images/linkedin.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br>
   <strong>PROJECTS</strong>
-  <be><br>
+  <br><br>
   <strong>AI Agents</strong>
   <br>
-  <a href="https://dacho688.github.io/Data_Analyst">- Data Analyst</a>
-  <br><be><br>
+  <a href="https://dacho688.github.io/Data_Analyst">  Data Analyst</a>
+  <br><br><br>
   <a href="https://www.linkedin.com/in/davor-kondic-54576886/">View my LinkedIn Profile</a>
   <br><br>
   <a href="https://huggingface.co/dkondic">View my HuggingFace Profile and Demos.</a>
