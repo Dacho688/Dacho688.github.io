@@ -1,6 +1,8 @@
 # Projects
 
 ## AI Agents and Chatbots
+
+
 ### Resume AI Chatbot
 <img src="images/LogoResumeAI.jpg?raw=true" />
 
@@ -12,8 +14,7 @@ For your convenience and fun, I constructed a Resume AI Gradio chat interface an
 <a href="https://huggingface.co/spaces/dkondic/ResumeChatbot">Chat with my resume on HuggingFace!</a>\
 <a href="https://github.com/Dacho688/ResumeChatbot">View code on GitHub</a>
 
-[![](https://img.shields.io/badge/Meta_Llama-white?logo=meta&logoColor=black
-)](#) [![](https://img.shields.io/badge/Python-white?logo=Python)](#)  [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#)  [![](https://img.shields.io/badge/HuggingFace_Hub-white?logo=huggingface)](#)  [![](https://img.shields.io/badge/Gradio-white?logo=gradio)](#)
+![](https://img.shields.io/badge/Meta_Llama-white?logo=meta&logoColor=black) ![](https://img.shields.io/badge/Python-white?logo=Python) ![](https://img.shields.io/badge/PyTorch-white?logo=pytorch) ![](https://img.shields.io/badge/HuggingFace_Hub-white?logo=huggingface) ![](https://img.shields.io/badge/Gradio-white?logo=gradio)
 
 
 ### Data Analyst Agent 
@@ -29,6 +30,5 @@ A personal Data Analyst Agent built with Meta-Llama-3.1-70B-Instruct LLM and dep
 <a href="https://huggingface.co/spaces/dkondic/data-analyst">Try me on HuggingFace!</a>\
 <a href="https://github.com/Dacho688/Data_Analyst">View code on GitHub</a>
 
-[![](https://img.shields.io/badge/Meta_Llama-white?logo=meta&logoColor=black
-)](#) [![](https://img.shields.io/badge/Python-white?logo=Python)](#)  [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#)  [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#)  [![](https://img.shields.io/badge/Gradio-white?logo=gradio)](#)
+![](https://img.shields.io/badge/Meta_Llama-white?logo=meta&logoColor=black) ![](https://img.shields.io/badge/Python-white?logo=Python) ![](https://img.shields.io/badge/PyTorch-white?logo=pytorch) ![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface) ![](https://img.shields.io/badge/Gradio-white?logo=gradio)
 
