@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "DataAnalyst"
-permalink: /Data Analyst AI Agent
+title: "Data Analyst AI Agent"
+permalink: /DataAnalyst
 ---
 # Data Analyst AI Agent
 A personal Data Analyst Agent built with Meta-Llama-3.1-70B-Instruct LLM and deployed as a Gradio web app to HuggingFace Spaces. Using the ReACT (Reasoning and Action) framework this AI agent thinks, acts, and observes sequentially until the final answer is reached. Using the transformers Python package and their ReactCodeAgent framework, this agent acts and observes with only a Python code interpreter tool. 

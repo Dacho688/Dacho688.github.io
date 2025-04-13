@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Resume Chatbot"
-permalink: /Resume Chatbot
+permalink: /ResumeChatbot
 ---
 # Resume Chatbot
 
