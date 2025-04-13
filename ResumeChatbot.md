@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Resume Chatbot"
+permalink: /Resume Chatbot
+---
 # Resume Chatbot
 
 For your convenience and fun, I built a Resume AI so that you can chat with my resume directly. A Gradio web app deployed to HuggingFace Spaces powered by Meta-Llama-3.1-70B-Instruct large language model (LLM) and with careful system prompt engineering is able to answer to user's questions based only on my resume's content. It is a conversational AI so it will remember your conversation as you chat with it. 
