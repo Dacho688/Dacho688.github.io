@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Data Analyst AI Agent"
+title: "DataAnalyst"
 permalink: /Data Analyst AI Agent
 ---
 # Data Analyst AI Agent
