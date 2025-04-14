@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Data Analyst AI Agent"
-permalink: /Data Analyst
+permalink: /DataAnalyst
 ---
 
 <iframe
