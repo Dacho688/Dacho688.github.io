@@ -3,7 +3,7 @@
 ### AI Agents and Chatbots
 #### Resume Chatbot
 
-For your convenience and fun, I built a Resume AI so that you can chat with my resume directly. A Gradio web app deployed to HuggingFace Spaces powered by Meta-Llama-3.1-70B-Instruct large language model (LLM) and with careful system prompt engineering is able to answer to user's questions based only on my resume's content. It is a conversational AI so it will remember your conversation as you chat with it. 
+For your convenience and fun, I built a Resume AI so that you can chat with my resume directly. A Gradio web app deployed to HuggingFace Spaces powered by Meta-Llama-3.3-70B-Instruct large language model (LLM) and with careful system prompt engineering is able to answer to user's questions based only on my resume's content. It is a conversational AI so it will remember your conversation as you chat with it. 
 <br>
 <a href="ResumeChatbot">Try App</a><br>
 <a href="https://github.com/Dacho688/ResumeChatbot">Source Code on GitHub</a>
@@ -24,7 +24,13 @@ A personal Data Analyst Agent built with Meta-Llama-3.1-70B-Instruct LLM and dep
 
 ![](https://img.shields.io/badge/Meta_Llama-white?logo=meta&logoColor=black) ![](https://img.shields.io/badge/Python-white?logo=Python) ![](https://img.shields.io/badge/PyTorch-white?logo=pytorch) ![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface) ![](https://img.shields.io/badge/Gradio-white?logo=gradio)
 
+#### Image Chatbot
+A conversational AI using the open source and SOTA Llava-Next large multimodal model (LMM). With advanced visual reasoning and conversational skills, this AI is capable of summarizing, question answering, and even holding a conversation on any image. Llava-Next is downloaded from Huggingface Hub, loaded to Cuda GPU, and deployed as a Gradio web app on Huggingface's ZeroGPU technology. 
 
+<a href="ImageChatbot">Try App</a><br>
+<a href="https://github.com/Dacho688/ImageChatbot">Source Code on GitHub</a>
+
+![](https://img.shields.io/badge/Python-white?logo=Python) ![](https://img.shields.io/badge/PyTorch-white?logo=pytorch) ![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface) ![](https://img.shields.io/badge/Gradio-white?logo=gradio)
 
 ## Other
 
