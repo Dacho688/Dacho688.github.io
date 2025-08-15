@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Data Analyst AI Agent"
 permalink: /DataAnalyst
 ---
