@@ -1,6 +1,6 @@
 title: Davor Kondic # your name (or website title) here
 logo: "/images/linkedin.jpg?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
+description: # your text below (remove <br> elements if you don't need line breaks)
   <br>
   Results-driven data science professional with over a decade of experience in 
   extracting actionable insights from data. Proven track record of leveraging data 
@@ -12,6 +12,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://huggingface.co/dkondic">View my HuggingFace Profile and Demos.</a>
 
 theme: jekyll-theme-minimal
+google-site-verification: "jE1LhpjTml2Dgg9YDJQhQv0HkhutqsSzY0LoVNZFx-0"
 #google_analytics: UA-000000-0 # your Google Analytics tracking ID here
 
 colors:
