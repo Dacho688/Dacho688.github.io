@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "Fantasy Football Draftboard"
 permalink: /FantasyFootballDraftboard
 ---
