@@ -2,10 +2,13 @@
 ## Dashboards
 ### Tableau
 #### Fantasy Football Draftboard
+<img src="images/FantasyFootballDraftboard.png" alt="Error Loading Image" width="400" height="200"/>
+<br>
+<br>
 This is more than a draftboard, it is a fantasy football draft optimizer where player rankings are based on value above replacement player. We first obtain NFL statistic projections from multiple sources. Then calculate fantasy points and average it to obtain Player Projected Points. We then compare those projections to a replacement player's projected points. A replacement player is defined as the "worst" starter given the league's number of teams and positional requirements settings. For example, a 10 team league with 1 QB starter would mean that for QBs a replacement player would be the 10th highest Player Projected Points as mentioned above(1x10=10). Finally, we summarize these rankings by creating an interactive Tableau dashboard that can be used live on draft day to guide you in making data driven draft decisions. Try it directly from this site my clicking Try Dashboard below!
-
+<br><br>
 NOTE: Projected Points are calculated based on Yahoo's standard scoring. Future variations may include the ability to enter custom scoring settings.
-
+<br><br>
 <a href="FantasyFootballDraftboard">Try Dashboard</a><br>
 <a href="https://public.tableau.com/app/profile/davor.kondic/vizzes">See my Tableau Public Profile</a><br>
 
