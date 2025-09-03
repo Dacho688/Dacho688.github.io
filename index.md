@@ -24,7 +24,7 @@ Try it directly from this site my clicking Try Dashboard below!
 <br><br>
 NOTE: Projected Points are calculated based on Yahoo's custom point per reception and carry scoring. Future variations may include the ability to enter custom scoring settings.
 <br><br>
-<a href="FantasyFootballWeeklyRankings">Try Dashboard</a><br>
+<a href="FantasyFootballWeeklyRankingsAndProjections">Try Dashboard</a><br>
 <a href="https://public.tableau.com/app/profile/davor.kondic/vizzes">See my Tableau Public Profile</a><br>
 
 ## Web Apps
