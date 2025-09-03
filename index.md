@@ -5,11 +5,26 @@
 <img src="images/FantasyFootballDraftboard.png" alt="Error Loading Image" width="400" height="200"/>
 <br>
 <br>
-This is more than a draftboard, it is a fantasy football draft optimizer where player rankings are based on value above replacement player. We first obtain NFL statistic projections from multiple sources. Then calculate fantasy points and average it to obtain Player Projected Points. We then compare those projections to a replacement player's projected points. A replacement player is defined as the "worst" starter given the league's number of teams and positional requirements settings. For example, a 10 team league with 1 QB starter would mean that for QBs a replacement player would be the 10th highest Player Projected Points as mentioned above(1x10=10). Finally, we summarize these rankings by creating an interactive Tableau dashboard that can be used live on draft day to guide you in making data driven draft decisions. Try it directly from this site my clicking Try Dashboard below!
+This is more than a draftboard, it is a fantasy football draft optimizer where player rankings are based on value above replacement player. We first obtain NFL statistical projections from multiple sources. We then calculate fantasy points and average it to obtain Player Projected Points. We then compare those projections to a replacement player's projected points. A replacement player is defined as the "worst" starter given the league's number of teams and positional requirements settings. For example, a 10 team league with 1 QB starter would mean that for QBs a replacement player would be the 10th highest Player Projected Points as mentioned above(1x10=10). Finally, we summarize these rankings by creating an interactive Tableau dashboard that can be used live on draft day to guide you in making data driven draft decisions.
 <br><br>
-NOTE: Projected Points are calculated based on Yahoo's standard scoring. Future variations may include the ability to enter custom scoring settings.
+Try it directly from this site my clicking Try Dashboard below!
+<br><br>
+NOTE: Projected Points are calculated based on Yahoo's custom point per reception and carry scoring. Future variations may include the ability to enter custom scoring settings.
 <br><br>
 <a href="FantasyFootballDraftboard">Try Dashboard</a><br>
+<a href="https://public.tableau.com/app/profile/davor.kondic/vizzes">See my Tableau Public Profile</a><br>
+
+### Fantasy Football Weekly Rankings and Projections
+<img src="images/FantasyFootballWeeklyRankings.png" alt="Error Loading Image" width="400" height="200"/>
+<br>
+<br>
+A weekly fantasy football points projection dashboard. Continuing with the same strategy as in our Fantasy Football Draftboard dashboard, we first obtain NFL statistical projections from multiple sources. We then calculate fantasy points by source and average it to obtain Player Projected Points and thus player rankings. Finally, we summarize these findings by creating an interactive Tableau dashboard and updating data on a weekly basis (usually Wednesdays).
+<br><br>
+Try it directly from this site my clicking Try Dashboard below!
+<br><br>
+NOTE: Projected Points are calculated based on Yahoo's custom point per reception and carry scoring. Future variations may include the ability to enter custom scoring settings.
+<br><br>
+<a href="FantasyFootballWeeklyRankings">Try Dashboard</a><br>
 <a href="https://public.tableau.com/app/profile/davor.kondic/vizzes">See my Tableau Public Profile</a><br>
 
 ## Web Apps

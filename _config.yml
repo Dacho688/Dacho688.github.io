@@ -2,10 +2,14 @@ title: Davor Kondic # your name (or website title) here
 logo: "/images/linkedin.jpg?raw=true" # your photo (or logo) here
 description: # your text below (remove <br> elements if you don't need line breaks)
   <br>
-  Results-driven data science professional with over a decade of experience in 
-  extracting actionable insights from data. Proven track record of leveraging data 
-  analytics to inform business decisions and drive growth. I'm passionate about 
-  data-driven decision making and staying at the forefront of data science trends. 
+  Welcome to my Projects Portfolio site!
+  <br><br>I built this site personally with Github Pages to
+  showcase some of my personal projects and my full stack data analytics and data engineering skills.
+  Here you will find the front end or user interface of each project and will be able to interact and use it
+  directly within the site. For more information like source code or dashboard workbooks please visit one of my
+  Tableau, Github, or Huggingface repos listed below.
+  <br><br>
+  Hope you enjoy using them as much I as did building them! 
   <br><br>
   <a href="https://public.tableau.com/app/profile/davor.kondic/vizzes">View my Tableau Public Profile</a>
   <br><br>
