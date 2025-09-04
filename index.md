@@ -14,7 +14,7 @@ NOTE: Projected Points are calculated based on Yahoo's custom point per receptio
 <a href="FantasyFootballDraftboard">Try Dashboard</a><br>
 <a href="https://public.tableau.com/app/profile/davor.kondic/vizzes">See my Tableau Public Profile</a><br>
 
-### Fantasy Football Weekly Rankings and Projections
+#### Fantasy Football Weekly Rankings and Projections
 <img src="images/FantasyFootballWeeklyRankings.png" alt="Error Loading Image" width="400" height="200"/>
 <br>
 <br>
@@ -28,6 +28,17 @@ NOTE: Projected Points are calculated based on Yahoo's custom point per receptio
 <a href="https://public.tableau.com/app/profile/davor.kondic/vizzes">See my Tableau Public Profile</a><br>
 
 ## Web Apps
+### Databases
+#### User Management with SQLite
+<img src="images/UsersDatabase.png" alt="Error Loading Image" width="400" height="200"/>
+<br>
+<br>
+A "User Management" web app using SQLite. In this project we explore database creationg, management, and embedding. First create a simple 1 table database with name and email as columns. We then embedd the database into our Gradio web app and create Python functions with error handling to manage the user creation, query, and status. The app is then deployed to Huggingface spaces and made available as a URL link. Give it a try and create some users by clicking Try App below.
+<br>
+<br>
+<a href="UsersDatabase">Try App</a><br>
+<a href="https://github.com/Dacho688/UsersDatabase">Source Code on GitHub</a>
+
 ### AI Agents and Chatbots
 #### Resume Chatbot
 
@@ -40,7 +51,7 @@ For your convenience and fun, I built a Resume AI so that you can chat with my r
 
 #### Data Analyst AI Agent
 
-A personal Data Analyst Agent built with Meta-Llama-3.1-70B-Instruct LLM and deployed as a Gradio web app to HuggingFace Spaces. Using the ReACT (Reasoning and Action) framework this AI agent thinks, acts, and observes sequentially until the final answer is reached. Using the transformers Python package and their ReactCodeAgent framework, this agent acts and observes with only a Python code interpreter tool. 
+A personal Data Analyst Agent built with Meta-Llama-3.3-70B-Instruct LLM and deployed as a Gradio web app to HuggingFace Spaces. Using the ReACT (Reasoning and Action) framework this AI agent thinks, acts, and observes sequentially until the final answer is reached. Using the transformers Python package and their ReactCodeAgent framework, this agent acts and observes with only a Python code interpreter tool. 
 
 1. Upload data as .csv text file.
 2. Ask a question or give it a task.
