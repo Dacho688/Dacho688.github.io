@@ -1,4 +1,4 @@
-## Davor Kondic's data science, ML, and AI portfolio.
+## Davor Kondic's data science and data analytics portfolio.
 https://dacho688.github.io/
 
 Based on a Minimal Jekyll theme for GitHub Pages [1].

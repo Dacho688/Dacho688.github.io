@@ -1,6 +1,5 @@
 ---
-layout: default
-nav_enabled: false
+layout: page
 title: "Users Database"
 permalink: /UsersDatabase
 ---
