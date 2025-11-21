@@ -7,6 +7,6 @@ permalink: /DataAnalyst
 <iframe
     src="https://dkondic-data-analyst.hf.space"
     frameborder="0"
-    width="850"
-    height="850"
+    width="1800" 
+    height="900"
 ></iframe>
