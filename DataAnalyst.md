@@ -5,7 +5,7 @@ permalink: /DataAnalyst
 ---
 
 <iframe
-    src="https://dkondic-data-analyst.hf.space"
+    src="https://dkondic-data-analyst.hf.space?__theme=light"
     frameborder="0"
     width="1800" 
     height="900"

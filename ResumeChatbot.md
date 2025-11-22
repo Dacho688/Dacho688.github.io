@@ -5,7 +5,7 @@ permalink: /ResumeChatbot
 ---
 
 <iframe
-    src="https://dkondic-resumechatbot.hf.space/"
+    src="https://dkondic-resumechatbot.hf.space/?__theme=light"
     frameborder="0"
     width="1800" 
     height="900"
