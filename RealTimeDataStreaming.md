@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "Real Time Data Streaming"
 permalink: /RealTimeDataStreaming
 ---
