@@ -6,6 +6,6 @@ permalink: /FantasyFootballDraftboard
 
 <iframe 
 src="https://public.tableau.com/views/2025FantasyFootballDraftboard/2025FantasyFootballDraftboard?:showVizHome=no&:embed=true"
-width="1800" 
-height="900"
+width="1600" 
+height="850"
 ></iframe>

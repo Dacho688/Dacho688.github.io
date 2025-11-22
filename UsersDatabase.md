@@ -7,6 +7,6 @@ permalink: /UsersDatabase
 <iframe
     src="https://dkondic-UsersDatabase.hf.space/"
     frameborder="0"
-    width="850"
-    height="850"
+    width="1800" 
+    height="900"
 ></iframe>
