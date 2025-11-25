@@ -1,4 +1,48 @@
 # Projects
+## Machine Learning
+### ML API
+A FastAPI enpoint serving a sklearn pipeline with an ordinal logistic regression model to predict customer's "small quantity order importance ranking (1-10)." The pipeline constist of 3 steps:<br>
+1. Column Transformer<br>
+        a. Standard Scaling for numerical variables<br>
+        b. One-hot-encoding for categorical variables
+2. Feature Selection<br>
+        a. Lasso Regression
+3. Model <br>
+        a. Mord Ordinal Logistic Regression
+
+The fitted pipeline/model is then serialized with joblib, served with Uvicorn, containarized with Docker, and finally deployed to HuggingFace Spaces. 
+
+Prediction requests can be sent to https://dkondic-ml-api.hf.space/predict as a list of dictionaries where each dictionary is an instance to predict. Thus prediction is possible for single instance or batch of instances.
+
+Request Body
+```
+[
+  {
+    "CUST_NBR": "string",
+    "MENU_TYP_DESC": "string",
+    "PYR_SEG_CD": "string",
+    "DIV_NBR": "string",
+    "WKLY_ORDERS": 0,
+    "PERC_EB": 0,
+    "AVG_WKLY_SALES": 0,
+    "AVG_WKLY_CASES": 0
+  }
+]
+```
+Resonse Body
+```
+{
+  "prediction": [
+    0
+  ]
+}
+```
+
+<br>
+<br>
+Please see <a href="ML_API">API Docs</a> for more indormation.<br> 
+<a href="https://github.com/Dacho688/ML_API">Source Code on GitHub</a>   
+
 ## Data Visualization
 ### Bokeh Web Applications
 #### Real Time Data Streaming
