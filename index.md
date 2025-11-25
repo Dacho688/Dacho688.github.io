@@ -40,7 +40,7 @@ Resonse Body
 
 <br>
 <br>
-Please see <a href="ML_API">API Docs</a> for more indormation.<br> 
+Please see <a href="https://dkondic-ml-api.hf.space/">API Docs</a> for more indormation.<br> 
 <a href="https://github.com/Dacho688/ML_API">Source Code on GitHub</a>   
 
 ## Data Visualization
