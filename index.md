@@ -1,7 +1,9 @@
 # Projects
 ## Machine Learning
-### ML API
-A FastAPI enpoint serving a sklearn pipeline with an ordinal logistic regression model to predict customer's "small quantity order importance ranking (1-10)." The pipeline constist of 3 steps:<br>
+### ML API<br>
+ A FastAPI enpoint serving a fitted sklearn pipeline with an ordinal logistic regression model using the 
+<a href="https://pypi.org/project/mord/">Mord Python Package</a> to predict customer's "small quantity order importance ranking (1-10)." 
+#### Pipeline Steps
 1. Column Transformer<br>
         a. Standard Scaling for numerical variables<br>
         b. One-hot-encoding for categorical variables
@@ -10,11 +12,11 @@ A FastAPI enpoint serving a sklearn pipeline with an ordinal logistic regression
 3. Model <br>
         a. Mord Ordinal Logistic Regression
 
-The fitted pipeline/model is then serialized with joblib, served with Uvicorn, containarized with Docker, and finally deployed to HuggingFace Spaces. 
+The fitted pipeline is then serialized with joblib, served with Fast API (Uvicorn), containarized with Docker, and finally deployed to HuggingFace Spaces. 
 
-Prediction requests can be sent to https://dkondic-ml-api.hf.space/predict as a list of dictionaries where each dictionary is an instance to predict. Thus prediction is possible for single instance or batch of instances.
+Prediction requests can be sent to https://dkondic-ml-api.hf.space/predict as a list of dictionaries where each dictionary is an instance to predict. Thus, prediction is possible for single instance or batch of instances. Please see <a href="https://dkondic-ml-api.hf.space/">ML API Docs</a> and <a href="https://github.com/Dacho688/ML_API">Source Code</a> for more indormation.<br> 
 
-Request Body
+#### Request Body
 ```
 [
   {
@@ -29,7 +31,7 @@ Request Body
   }
 ]
 ```
-Resonse Body
+#### Resonse Body
 ```
 {
   "prediction": [
@@ -37,11 +39,26 @@ Resonse Body
   ]
 }
 ```
+#### Prediction example using Python requests
+```py
+import requests
 
-<br>
-<br>
-Please see <a href="https://dkondic-ml-api.hf.space/">API Docs</a> for more indormation.<br> 
-<a href="https://github.com/Dacho688/ML_API">Source Code on GitHub</a>   
+data = [
+        {"CUST_NBR":"1111",
+         "MENU_TYP_DESC":"MEXICAN",
+         "PYR_SEG_CD":"Education",
+         "DIV_NBR":"20",
+         "WKLY_ORDERS": 15,
+         "PERC_EB":0.80,
+         "AVG_WKLY_SALES":2656.04,
+         "AVG_WKLY_CASES":67.00}]
+
+response = requests.post("https://dkondic-ml-api.hf.space/predict", json=data)
+print(response.json())
+```
+![](https://img.shields.io/badge/Python-white?logo=Python) ![](https://img.shields.io/badge/Docker-white?logo=docker) ![](https://img.shields.io/badge/HuggingFace-white?logo=huggingface) ![Static Badge](https://img.shields.io/badge/GitHub-white?logo=GitHub&logoColor=%23181717) ![Static Badge](https://img.shields.io/badge/GitHubActions-white?logo=githubactions&logoColor=%232088FF) ![Static Badge](https://img.shields.io/badge/FastAPI-white?logo=fastapi) ![Static Badge](https://img.shields.io/badge/sklearn-white?logo=scikitlearn&logoColor=%23149EF2)
+
+
 
 ## Data Visualization
 ### Bokeh Web Applications
@@ -84,8 +101,7 @@ NOTE: Projected Points are calculated based on Yahoo's custom point per receptio
 <a href="FantasyFootballWeeklyRankingsAndProjections">Try Dashboard</a><br>
 <a href="https://public.tableau.com/app/profile/davor.kondic/vizzes">See my Tableau Public Profile</a><br>
 
-## Web Apps
-### Databases
+## Databases
 #### User Management with SQLite
 <img src="images/UsersDatabase.png" alt="Error Loading Image" width="400" height="200"/>
 <br>
@@ -96,7 +112,7 @@ A "User Management" web app using SQLite. In this project we explore database cr
 <a href="UsersDatabase">Try App</a><br>
 <a href="https://github.com/Dacho688/UsersDatabase">Source Code on GitHub</a>
 
-### AI Agents and Chatbots
+## AI Agents and Chatbots
 #### Resume Chatbot
 
 For your convenience and fun, I built a Resume AI so that you can chat with my resume directly. A Gradio web app deployed to HuggingFace Spaces powered by Meta-Llama-3.3-70B-Instruct large language model (LLM) and with careful system prompt engineering is able to answer to user's questions based only on my resume's content. It is a conversational AI so it will remember your conversation as you chat with it. 
