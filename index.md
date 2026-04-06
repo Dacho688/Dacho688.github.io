@@ -1,5 +1,22 @@
 # Projects
 ## Machine Learning
+### Auto Forecast Tool
+<img src="images/AutoForecast.png" alt="Error Loading Image" width="400" height="200"/>
+
+An auto forecast tool. This tools accepts any time series data (.csv) and then automatically builds, tunes, trains, and forecasts any time series data using the SARIMA model. Tuning is based on out of sample error rates (MSE) using grid search for best SARIMA(p,d,q)(P,D,Q) parameters. 
+<br>
+#### Instructions
+1. Upload time series data sorted from oldest to newest as a .csv file.
+2. Enter number of periods in a season (ie 7 for weekly data, 12 for monthly, 4 for quarterly, 1 for yearly).
+3. Enter number of periods to forecast ahead.
+4. Enter column name that you want to forecast.
+5. Press the Auto Forecast button.
+6. Wait for Status to show "Complete!" to view a data table and plot of complete time series data with forecasts in red.
+<br>
+
+<a href="AutoForecastTool">Try App</a><br>
+<a href="https://github.com/Dacho688/AutoForecast">Source Code on GitHub</a>
+
 ### ML API<br>
  A FastAPI enpoint serving a fitted sklearn pipeline with an ordinal logistic regression model using the 
 <a href="https://pypi.org/project/mord/">Mord Python Package</a> to predict customer's "small quantity order importance ranking (1-10)." 
